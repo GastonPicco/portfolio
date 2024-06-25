@@ -1,6 +1,7 @@
 import './HeaderPresentation.css'
 
 
+
 export const HeaderPresentation = ({avatar_src}) => {
 
     const SectionScroll = (sectionId) => {

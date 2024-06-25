@@ -7,18 +7,24 @@
     margin-bottom: 40px;
 }
 .about-me-description{
-    display: inline-flex;
-    justify-content: space-around;
-    padding: var(--midMargin);
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding: var(--paddingForContent);
     column-gap: var(--midMargin);
+    max-width: 1200px;
+
 }
 .about-me-description-text{
     background-color: var(--color1);
 }
+.about-me-description-div{
+    display: flex;
+    overflow: hidden;
+}
 .about-me-description-image{
     object-fit:cover;
     min-width: 40%;
-    max-height:300px;
+    max-height:400px;
 }
 .about-me-description-image-inner{
     object-fit:cover;
