@@ -16,7 +16,6 @@ export const Works = ({ onButtonClick, title = "titulo", description = "descripc
                 <div className="work-content-card-div">
                 <img className="work-content-card-image-holder-img" src={`src/assets/${workImageSrc[0]}`} alt=""/>
                 </div>
-                
                 <img className="work-content-card-proyect-type" src={`src/assets/${workTypeLogo}`}/>
                 <section className="work-content-card-data">
                     <h4 className="work-content-card-data-title">{title}</h4>
