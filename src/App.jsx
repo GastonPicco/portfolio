@@ -47,7 +47,6 @@ export const App = () => {
 
   return (
     <main>
-      <h1>TEST</h1>
       {<PopUpWindow
         appFunction={handleAppClick}
         isVisible={isVisible}

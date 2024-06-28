@@ -20,21 +20,21 @@ const handleImageClick = (id) => {
                 <h3 className="popUpTitle">{title}</h3>
                 <div className="popUpContent">
                     <div className="popUpMediaArea">
-                        <img className="popUpMedia" src={`src/assets/${popImageSrc[imageId]}`} alt="" />
+                        <img className="popUpMedia" src={popImageSrc[imageId]} alt="" />
                         <div className="popUpMediaSelector">
                             {Array.isArray(popImageSrc) ? (
                                 popImageSrc.map((imageSrc, index) => (
                                     <img
                                     key={index}
                                     className="imageToSelect"
-                                    src={`src/assets/${imageSrc.endsWith('.gif') ? imageSrc.replace('.gif', '.jpg') : imageSrc}`}
+                                    src={/*{*/imageSrc /*? imageSrc : imageSrc}*/}
                                     alt=""
                                     draggable="false"
                                     onClick={() => handleImageClick(index)}
                                 />
                                 ))
                             ) : (
-                                <img className="imageToSelect" ssrc={`src/assets/${popImageSrc[0]}`} alt="" draggable="false" />
+                                <img className="imageToSelect" src={popImageSrc[0]} alt="" draggable="false" />
                             )}
                         </div>
                     </div>

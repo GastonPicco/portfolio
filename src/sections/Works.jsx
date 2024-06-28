@@ -1,7 +1,8 @@
 import "./Works.css"
 import { PopUpWindow } from "./PopUpWindow.jsx"
+import nullImage from  './../assets/profile-img.jpg';
 
-export const Works = ({ onButtonClick, title = "titulo", description = "descripción...", estado = false, articleIndex = null, workImageSrc = "icon", workTypeLogo = "null"}) => {
+export const Works = ({ onButtonClick, title = "titulo", description = "descripción...", estado = false, articleIndex = null, workImageSrc = nullImage, workTypeLogo = "null"}) => {
     const text = estado ? 'visto' : 'nuevo'
     const stateClassName = estado ? 'work-content-card-data-buttons-state visited' : "work-content-card-data-buttons-state new"
 
@@ -14,9 +15,9 @@ export const Works = ({ onButtonClick, title = "titulo", description = "descripc
         <div>
             <section id="proyects" className="work-content-card">
                 <div className="work-content-card-div">
-                <img className="work-content-card-image-holder-img" src={`src/assets/${workImageSrc[0]}`} alt=""/>
+                <img className="work-content-card-image-holder-img" src={workImageSrc[0]} alt=""/>
                 </div>
-                <img className="work-content-card-proyect-type" src={`src/assets/${workTypeLogo}`}/>
+                <img className="work-content-card-proyect-type" src={workTypeLogo}/>
                 <section className="work-content-card-data">
                     <h4 className="work-content-card-data-title">{title}</h4>
                     <p className="work-content-card-data-text">{description}</p>
