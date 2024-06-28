@@ -100,7 +100,6 @@ import pacmanlevel1gif from '../assets/pacman3/level1gif.gif'
 import pacmanlevel2gif from '../assets/pacman3/level2gif.gif'
 import pacmanlevel3gif from '../assets/pacman3/level3gif.gif'
 
-
 const Images = {
     backgroundImg,
     UnityClogo,
