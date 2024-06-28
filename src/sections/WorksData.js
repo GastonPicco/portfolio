@@ -104,7 +104,7 @@ const worksData =
             text: "Fruit Ninja fue el proyecto elegido para aplicar conocimientos previos de desarrollo móvil. <br/><br/> Además de practicar el desarrollo móvil, se tuvo en cuenta la implementación de nuevos componentes para los GameObjects: shaders capaces de generar efectos y texturas mejoradas en las superficies de los objetos, partículas para dar una sensación más completa al juego, y por último el componente line renderer, que crea un efecto de corte que proporciona feedback al usuario y mejora la interacción visual.",
             imagePaths: [
                 Images.fruitninjagame,
-                Images.fruitninjamenu,
+                Images.fruitninjamenu2,
                 Images.fruitninjainspector,
                 Images.fruitninjagameplayGIF,
             ],

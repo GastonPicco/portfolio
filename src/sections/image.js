@@ -63,7 +63,7 @@ import testMovilinspector from './../assets/testmovil/inspector.jpg'
 import testMovilgameplayGif from './../assets/testmovil/gameplay.gif'
 //fruit ninja
 import fruitninjagame from './../assets/fruitninja/game.jpg'
-import fruitninjamenu from './../assets/fruitninja/menu.jpg'
+//import fruitninjamenu2 from './../assets/fruitninja/menu2.jpg'
 import fruitninjainspector from './../assets/fruitninja/inspector.jpg'
 import fruitninjagameplayGIF from './../assets/fruitninja/gameplayninja.gif'
 //bombardero
@@ -167,7 +167,7 @@ const Images = {
     testMovilgameplayGif,
     //fruit ninja
     fruitninjagame,
-    fruitninjamenu,
+    //fruitninjamenu2,
     fruitninjainspector,
     fruitninjagameplayGIF,
     //bombardero
